@@ -32,6 +32,11 @@ body{
 header{
     height: 80px;
     background-color: #FA6903;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
 }
 
 .container{
@@ -71,6 +76,14 @@ ul li{
 
 ul li a{
     text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gen li:hover{
+    text-decoration: underline;
+    color:white;
 }
 
 /* Main */
