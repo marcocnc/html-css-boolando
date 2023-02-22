@@ -47,3 +47,19 @@ ul li{
 ul li a{
     text-decoration: none;
 }
+
+/* Main */
+
+main .container{
+    margin-top: 100px;
+    flex-wrap: wrap;
+    height: 1000px;
+    background-color: rgb(255, 202, 104);
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
