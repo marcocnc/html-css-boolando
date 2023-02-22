@@ -66,6 +66,10 @@ h4{
     color: white;
 }
 
+li a{
+    text-decoration: none;
+    color: white;
+}
 /* Header */
 .topbar{
     height: 100%;
@@ -82,9 +86,7 @@ ul li{
     list-style: none;
 }
 
-ul li a{
-    text-decoration: none;
-    color: white;
+.topbar li a{
     font-size: 18px;
     font-weight: bold;
 }
@@ -149,13 +151,13 @@ main .container{
 .discount {
     background-color: red;
     position: absolute;
-    bottom: 90px;
+    bottom: 70px;
 }
 
 .sustainability {
     background-color: green;
     position: absolute;
-    bottom: 90px;
+    bottom: 70px;
     left: 65px;
 }
 
@@ -179,6 +181,10 @@ main .container{
 /* /Main */
 
 /* Footer */
+footer h4{
+    font-size: 20px;
+}
+
 .footer-bar{
     height: 100%;
     position: relative;
@@ -187,6 +193,10 @@ main .container{
 nav .info{
     justify-content: space-between;
     align-items: center;
+}
+
+.info li a{
+    font-size: 14px;
 }
 
 footer .social{
