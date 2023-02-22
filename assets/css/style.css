@@ -13,6 +13,14 @@ body{
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+.mx-15{
+    margin: 0 15px;
+}
+
 .px-15{
     padding: 0 15px;
 }
@@ -96,12 +104,58 @@ main .container{
 }
 
 .card{
-    width: 400px;
-    height: 500px;
+    width: calc(100% / 3 - 30px);
     background-color: blueviolet;
     border: 1px solid black;
+    position: relative;
+    margin-bottom: 30px;
 }
 
+.image img {
+    object-fit: contain;
+    width: 100%;
+    
+}
+
+.image img:last-child{
+    display: none;
+    position: absolute;
+    top: 0;
+}
+  
+.image:hover img:last-child{
+    display: block;
+}
+
+.heart{
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+}
+
+.discount, .sustainability{
+    color: white;
+    padding: 3px 9px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.discount {
+    background-color: red;
+    position: absolute;
+    bottom: 90px;
+}
+
+.sustainability {
+    background-color: green;
+    position: absolute;
+    bottom: 90px;
+    left: 65px;
+}
 /* Footer */
 .footer-bar{
     height: 100%;
