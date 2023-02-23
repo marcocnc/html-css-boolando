@@ -109,6 +109,7 @@ main .container{
     width: calc(100% / 3 - 30px);
     position: relative;
     margin-bottom: 30px;
+    min-width: 300px;
 }
 
 .image img {
